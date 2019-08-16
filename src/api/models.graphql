@@ -11,6 +11,7 @@ type User {
 	likes: [Like!]!
 	comments: [Comment!]!
 	rooms: [Room!]!
+	loginSecret: String!
 }
 
 type Post {
@@ -45,13 +46,13 @@ type File {
 type Room {
 	id: ID!
 	participants: [User!]!
-	message: [Message!]!
+	messages: [Message!]!
 }
 
 type Message {
 	id: ID!
 	text: String!
 	from: User!
-	to: [User!]
+	to: User!
 	room: Room!
 }
