@@ -6,7 +6,7 @@ export default {
 		requestSecret: async (_, args) => {
 			const { email } = args;
 			const loginSecret = generateSecret();
-			console.log(loginSecret);
+			//console.log(loginSecret);
 			try {
 				await prisma.updateUser({ data: { loginSecret }, where: { email } });
 				return true;
