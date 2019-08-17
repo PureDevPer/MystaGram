@@ -29,3 +29,4 @@ Instagram clone with React, React Native, Express, and Prisma
   - Send Grid: https://sendgrid.com/
 - passport, passport jwt: http://www.passportjs.org/packages/passport-jwt/#targetText=passport%2Djwt,secure%20RESTful%20endpoints%20without%20sessions.
 - jsonwebtoken: https://www.npmjs.com/package/jsonwebtoken
+- Prisma-exists: https://www.prisma.io/docs/prisma-client/features/check-existence-JAVASCRIPT-pyl1/
