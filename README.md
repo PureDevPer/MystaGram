@@ -5,8 +5,8 @@ Instagram clone with React, React Native, Express, and Prisma
 ## User Stories
 
 - [x] Create account
-- [ ] Request Secret
-- [ ] Confirm Secret (Login)
+- [x] Request Secret
+- [x] Confirm Secret (Login)
 - [ ] Like / Unlike a photo
 - [ ] Comment on a photo
 - [ ] Search by user
@@ -23,7 +23,9 @@ Instagram clone with React, React Native, Express, and Prisma
 
 - Prisma Datamodel: https://www.prisma.io/docs/datamodel-and-migrations/datamodel-MYSQL-knul/
 
-## Library
+## Library, Plug-in
 
 - NodeMailer: https://nodemailer.com/about/
   - Send Grid: https://sendgrid.com/
+- passport, passport jwt: http://www.passportjs.org/packages/passport-jwt/#targetText=passport%2Djwt,secure%20RESTful%20endpoints%20without%20sessions.
+- jsonwebtoken: https://www.npmjs.com/package/jsonwebtoken
