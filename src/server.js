@@ -5,6 +5,7 @@ import schema from './schema';
 import passport from 'passport';
 import './passport';
 import { authenticateJwt } from './passport';
+import { isAuthenticated } from './middlewares';
 //import { sendSecretMail } from './utils';
 //sendSecretMail('ashburn1207@gmail.com', '123');
 
@@ -12,7 +13,7 @@ const PORT = process.env.PORT || 4000;
 
 const server = new GraphQLServer({
 	schema,
-	context: ({ request }) => ({ request })
+	context: ({ request }) => ({ request, isAuthenticated })
 });
 
 server.express.use(logger('dev'));
