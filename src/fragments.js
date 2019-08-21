@@ -1,3 +1,4 @@
+/*
 export const USER_FRAGMENT = `
     id
     username
@@ -56,3 +57,4 @@ export const ROOM_FRAGMENT = `
         }
     }
 `;
+*/
