@@ -8,6 +8,8 @@ export default {
 			const { user } = request;
 			const { roomId, message, toId } = args;
 			let room;
+
+			// If there is no room
 			if (roomId === undefined) {
 				if (user.id !== toId) {
 					room = await prisma
@@ -34,6 +36,7 @@ export default {
 				},
 				to: {
 					connect: {
+						// If there is no room, then we will send it to toId
 						id: roomId ? getTo.id : toId
 					}
 				},
