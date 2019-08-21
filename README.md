@@ -19,14 +19,16 @@ Instagram clone with React, React Native, Express, and Prisma
 - [x] See the full photo
 - [x] Upload a photo
 - [x] Edit/Delete the photo
-- [ ] See the feed
-- [ ] See room
-- [ ] Send private Direct Message
-- [ ] Receive private Direct Message (Realtime)
+- [x] See the feed
+- [x] See room
+- [x] Send private Direct Message
+- [x] Receive private Direct Message (Realtime)
 
 ## Reading
 
 - Prisma Datamodel: https://www.prisma.io/docs/datamodel-and-migrations/datamodel-MYSQL-knul/
+- Prisma Subscrriptions: GraphQL subscriptions allow you to be notified in realtime when changes are happening to your data. There are three kinds of events that trigger a subscription
+  - https://github.com/prisma/prisma/blob/master/docs/1.4/04-Reference/03-Prisma-API/05-Subscriptions.md
 
 ## Library, Plug-in
 
