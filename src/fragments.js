@@ -1,6 +1,7 @@
 export const USER_FRAGMENT = `
     id
     username
+    avatar
 `;
 
 export const COMMENT_FRAGMENT = `
