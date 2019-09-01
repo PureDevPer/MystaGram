@@ -65,5 +65,4 @@ yarn.lock
 bin/
 lib/
 generated/
-prisma.yml
 build
