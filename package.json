@@ -5,6 +5,9 @@
 	"repository": "https://github.com/PureDevPer/MystaGram",
 	"author": "PureDevPer <wooseok.kim1207@gmail.com>",
 	"license": "MIT",
+	"engines": {
+		"yarn": "1.17.3"
+	},
 	"dependencies": {
 		"@babel/cli": "^7.5.5",
 		"@babel/core": "^7.5.5",
